@@ -47,3 +47,61 @@ This File Contains the Central Tendency and Dispersion Functions such as:
 11. Box Plot : A Box plot or boxplot is a method for graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending from the boxes indicating variability outside the upper and lower quartiles, hence the terms box-and-whisker plot and box-and-whisker diagram. Outliers may be plotted as individual points.
 
 ************************************************************************************************************************************************************
+
+DA-3(DISTRIBUTION)
+
+This File Contains the Most Commonly used Distribution Functions such as:
+1. Bionomial Distribution : Binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question, and each with its own boolean -valued outcome: success / yes / true / one (with probability p) or failure / no / false / zero (with probability q = 1 − p).
+Binomial Distribution Formula
+The binomial distribution formula is for any random variable X, given by;
+P(x:n,p) = nCx px (1-p)n-x
+Or
+P(x:n,p) = nCx px (q)n-x
+Where,
+n = the number of experiments,
+x = 0, 1, 2, 3, 4, …,
+p = Probability of Success in a single experiment,
+q = Probability of Failure in a single experiment = 1 – p,
+The binomial distribution formula can also be written in the form of n-Bernoulli trials, where nCx = n!/x!(n-x)!. Hence,
+P(x:n,p) = n!/[x!(n-x)!].px.(q)n-x
+
+2. Poisson Distribution:
+A Poisson distribution is a probability distribution which results from the Poisson experiment. A Poisson experiment is a statistical experiment that classifies the experiment into two categories, such as success or failure. Poisson distribution is a limiting process of the binomial distribution. A Poisson random variable “x” defines the number of successes in the experiment. This distribution occurs when there are events that do not occur as the outcomes of a definite number of outcomes. Poisson distribution is used under certain conditions. They are:
+Number of trials “n” tends to infinity
+Probability of success “p” tends to zero
+np = 1 is finite
+Poisson Distribution Formula
+The formula for the Poisson distribution function is given by:
+f(x) =(e– λ λx)/x!
+Where,
+e is the base of the logarithm,
+x is a Poisson random variable,
+λ is an average rate of value.
+
+3. Uniform Distribution : A continuous probability distribution is a Uniform distribution and is related to the events which are equally likely to occur. It is defined by two parameters, x and y, where x = minimum value and y = maximum value. It is generally denoted by u(x, y).
+
+4. Normal Distribution : A normal distribution is an arrangement of a data set in which most values cluster in the middle of the range and the rest taper off symmetrically toward either extreme.
+
+5. Cumulative Distribution Function : The Cumulative Distribution Function (CDF), of a real-valued random variable X, evaluated at x, is the probability function that X will take a value less than or equal to x. It is used to describe the probability distribution of random variables in a table. And with the help of these data, we can create a CDF plot in excel sheet easily.
+
+6. Hypergeometric Distribution : The hypergeometric distribution is a discrete probability distribution that describes the probability of successes (random draws for which the object drawn has a specified feature) in draws, without replacement, from a finite population of size that contains exactly objects with that feature, wherein each draw is either a success or a failure.
+
+7. Exponential Distribution : The exponential distribution graph is a graph of the probability density function which shows the distribution of distance or time taken between events. The two terms used in the exponential distribution graph is lambda (λ)and x. Here, lambda represents the events per unit time and x represents the time.
+
+************************************************************************************************************************************************************
+
+DA-4(HYPOTHESIS TESTING)
+
+WHAT IS HYPOTHESIS?
+A hypothesis is a proposition that attempts to explain a set of facts in a unified way. It generally forms the basis of experiments designed to establish its plausibility. Simplicity, elegance, and consistency with previously established hypotheses or laws are also major factors in determining the acceptance of a hypothesis.
+
+
+WHAT IS HYPOTHESIS TESTING?
+Hypothesis testing is a form of statistical inference that uses data from a sample to draw conclusions about a population parameter or a population probability distribution.
+
+P VALUE APPROACH
+In statistics, the p-value is the probability of obtaining results at least as extreme as the observed results of a statistical hypothesis test, assuming that the null hypothesis is correct. The p-value is used as an alternative to rejection points to provide the smallest level of significance at which the null hypothesis would be rejected. A smaller p-value means that there is stronger evidence in favor of the alternative hypothesis.
+
+t TEST
+A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related in certain features. It is mostly used when the data sets, like the data set recorded as the outcome from flipping a coin 100 times, would follow a normal distribution and may have unknown variances. A t-test is used as a hypothesis testing tool, which allows testing of an assumption applicable to a population. A t-test looks at the t-statistic, the t-distribution values, and the degrees of freedom to determine the statistical significance. To conduct a test with three or more means, one must use an analysis of variance.
+
