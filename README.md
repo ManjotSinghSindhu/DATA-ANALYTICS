@@ -51,7 +51,7 @@ This File Contains the Central Tendency and Dispersion Functions such as:
 DA-3(DISTRIBUTION)
 
 This File Contains the Most Commonly used Distribution Functions such as:
-1. Bionomial Distribution : Binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question, and each with its own boolean -valued outcome: success / yes / true / one (with probability p) or failure / no / false / zero (with probability q = 1 − p).
+1. Binomial Distribution : Binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question, and each with its own boolean -valued outcome: success / yes / true / one (with probability p) or failure / no / false / zero (with probability q = 1 − p).
 Binomial Distribution Formula
 The binomial distribution formula is for any random variable X, given by;
 P(x:n,p) = nCx px (1-p)n-x
