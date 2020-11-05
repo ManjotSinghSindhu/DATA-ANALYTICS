@@ -107,4 +107,18 @@ A t-test is a type of inferential statistic used to determine if there is a sign
 
 ************************************************************************************************************************************************************
 
+DA-5(ANOVA)
+
+What is Analysis of Variance (ANOVA)?
+Analysis of variance (ANOVA) is an analysis tool used in statistics that splits an observed aggregate variability found inside a data set into two parts: systematic factors and random factors. The systematic factors have a statistical influence on the given data set, while the random factors do not. Analysts use the ANOVA test to determine the influence that independent variables have on the dependent variable in a regression study.
+
+The Formula for ANOVA is:
+F= MSE/MST
+where:
+F=ANOVA coefficient,
+MST=Mean sum of squares due to treatment,
+MSE=Mean sum of squares due to error
+
+
+************************************************************************************************************************************************************
 
