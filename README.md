@@ -122,3 +122,20 @@ MSE=Mean sum of squares due to error
 
 ************************************************************************************************************************************************************
 
+DA-6(RANDOMISED BLOCK DESIGN FOR AIR TRAFFIC CONTROLLER STRESS TEST)(EXCEL FILE USED: RBD.xlsx)
+
+A randomized block design is a type of experiment where participants who share certain characteristics are grouped together to form blocks, and then the treatment (or intervention) gets randomly assigned within each block.
+
+Limitations of the randomized block design:
+Here are some of the limitations of the randomized block design and how to deal with them:
+1. It cannot deal with cases with more than 1 nuisance variable
+When you want to block on 2 nuisance variables, for example, use a Latin square design.
+
+2. Difficulty in choosing the number of blocks
+Decide on the number of blocks according to expert knowledge or previous literature.
+By choosing fewer blocks than you need, you may have a hard time maintaining homogeneity within each block.
+Also, if you choose a larger number of blocks than you should, you may end up with fewer than enough participants in a given block to be properly randomized to receive or not the treatment.
+
+3. Difficulty in detecting/measuring the nuisance variable
+
+************************************************************************************************************************************************************
