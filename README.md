@@ -184,3 +184,20 @@ For the regression line where the regression parameters b0 and b1 are defined, t
 3. The regression constant (b0) is equal to y-intercept the linear regression
 4. The regression coefficient (b1) is the slope of the regression line which is equal to the average change in the dependent variable (Y) for a unit change in the independent variable (X).
 
+************************************************************************************************************************************************************
+
+DA-8(RESIDUAL ANALYSIS)(EXCEL FILE USED: ResidualAnalysis.xlsx)
+
+Residual analysis
+1. The analysis of residuals plays an important role in validating the regression model. 
+2. If the error term in the regression model satisfies the four assumptions noted earlier, then the model is considered valid. Since the statistical tests for significance are also based on these assumptions, the conclusions resulting from these significance tests are called into question if the assumptions regarding ε are not satisfied.
+3. The ith residual is the difference between the observed value of the dependent variable, yi, and the value predicted by the estimated regression equation, ŷi. 
+4. These residuals, computed from the available data, are treated as estimates of the model error, ε. 
+5. As such, they are used by statisticians to validate the assumptions concerning ε. Good judgment and experience play key roles in residual analysis.
+6. Graphical plots and statistical tests concerning the residuals are examined carefully by statisticians, and judgments are made based on these examinations. 
+7. The most common residual plot shows ŷ on the horizontal axis and the residuals on the vertical axis. 
+8. If the assumptions regarding the error term, ε, are satisfied, the residual plot will consist of a horizontal band of points. 
+9. If the residual analysis does not indicate that the model assumptions are satisfied, it often suggests ways in which the model can be modified to obtain better results.
+
+************************************************************************************************************************************************************
+
