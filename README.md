@@ -186,7 +186,7 @@ For the regression line where the regression parameters b0 and b1 are defined, t
 
 ************************************************************************************************************************************************************
 
-DA-8(RESIDUAL ANALYSIS)(EXCEL FILE USED: ResidualAnalysis.xlsx)
+DA-9(RESIDUAL ANALYSIS)(EXCEL FILE USED: ResidualAnalysis.xlsx)
 
 Residual analysis
 1. The analysis of residuals plays an important role in validating the regression model. 
@@ -201,3 +201,23 @@ Residual analysis
 
 ************************************************************************************************************************************************************
 
+DA-10(DATA TRUCKING)(EXCEL FILE USED: Trucking.xlsx)
+
+Linear regression is a simple but powerful tool to analyze relationship between a set of independent and dependent variables. But, often people tend to ignore the assumptions of OLS before interpreting the results of it. Therefore, it is an essential step to analyze various statistics revealed by OLS.
+In statistics, model selection is an art. a lot of factors are taken into consideration in case making this art meaningful. Let look at each of the statistic one by one and see how can that affect the reliability of the results .
+
+1. R-squared: It signifies the “percentage variation in dependent that is explained by independent variables”. Here, 73.2% variation in y is explained by X1, X2, X3, X4 and X5. This statistic has a drawback, it increases with the number of predictors(dependent variables) increase. Therefore, it becomes inconclusive in case when it is to be decided whether additional variable is adding to the predictability power of the regression.
+
+2. Adj. R-squared: This is the modified version of R-squared which is adjusted for the number of variables in the regression. It increases only when an additional variable adds to the explanatory power to the regression.
+
+3. Prob(F-Statistic): This tells the overall significance of the regression. This is to assess the significance level of all the variables together unlike the t-statistic that measures it for individual variables. The null hypothesis under this is “all the regression coefficients are equal to zero”. Prob(F-statistics) depicts the probability of null hypothesis being true. As per the above results, probability is close to zero. This implies that overall the regressions is meaningful.
+
+4. AIC/BIC: It stands for Akaike’s Information Criteria and is used for model selection. It penalizes the errors mode in case a new variable is added to the regression equation. It is calculated as number of parameters minus the likelihood of the overall model. A lower AIC implies a better model. Whereas, BIC stands for Bayesian information criteria and is a variant of AIC where penalties are made more severe.
+
+5. Prob(Omnibus): One of the assumptions of OLS is that the errors are normally distributed. Omnibus test is performed in order to check this. Here, the null hypothesis is that the errors are normally distributed. Prob(Omnibus) is supposed to be close to the 1 in order for it to satisfy the OLS assumption. In this case Prob(Omnibus) is 0.062, which implies that the OLS assumption is not satisfied. Due to this, the coefficients estimated out of it are not Best Linear Unbiased Estimators(BLUE).
+
+6. Durbin-watson: Another assumption of OLS is of homoscedasticity. This implies that the variance of errors is constant. A value between 1 to 2 is preferred. Here, it is ~1.8 implying that the regression results are reliable from the interpretation side of this metric.
+
+7. Prob(Jarque-Bera): It i in line with the Omnibus test. It is also performed for the distribution analysis of the regression errors. It is supposed to agree with the results of Omnibus test. A large value of JB test indicates that the errors are not normally distributed.
+
+************************************************************************************************************************************************************
