@@ -221,3 +221,10 @@ In statistics, model selection is an art. a lot of factors are taken into consid
 7. Prob(Jarque-Bera): It i in line with the Omnibus test. It is also performed for the distribution analysis of the regression errors. It is supposed to agree with the results of Omnibus test. A large value of JB test indicates that the errors are not normally distributed.
 
 ************************************************************************************************************************************************************
+
+DA-10(MAXIMUM LIKELIHOOD ESTIMATION)(EXCEL FILE USED: Mle.xlsx)
+
+1. Maximum likelihood estimation (MLE) is a technique used for estimating the parameters of a given distribution, using some observed data. 
+2. For example, if a population is known to follow a normal distribution but the mean and variance are unknown, MLE can be used to estimate them using a limited sample of the population, by finding particular values of the mean and variance so that the observation is the most likely result to have occurred.
+3.MLE is useful in a variety of contexts, ranging from econometrics to MRIs to satellite imaging. It is also related to Bayesian statistics.
+
