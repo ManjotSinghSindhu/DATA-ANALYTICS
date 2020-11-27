@@ -231,7 +231,7 @@ DA-10(MAXIMUM LIKELIHOOD ESTIMATION)(EXCEL FILE USED: Mle.xlsx)
 ************************************************************************************************************************************************************
 
 DA-11(LOGISTIC REGRESSION)(EXCEL FILE USED: Mle.xlsx)
-DA-10(LOGISTICS] REGRESSION - FULL)(EXCEL FILE USED: Mle.xlsx)
+DA-10(LOGISTIC REGRESSION - FULL)(EXCEL FILE USED: Mle.xlsx)
 
 **Logistic regression** is a classification algorithm. It is used to predict a binary outcome based on a set of independent variables.
 Ok, so what does this mean? A binary outcome is one where there are only two possible scenarios—either the event happens (1) or it does not happen (0). Independent variables are those variables or factors which may influence the outcome (or dependent variable).
@@ -258,8 +258,45 @@ In addition to the two criteria mentioned above, there are some further requirem
 3. The independent variables should be linearly related to the log odds. If you’re not familiar with log odds, we’ve included a brief explanation below.
 4. Logistic regression requires fairly large sample sizes—the larger the sample size, the more reliable (and powerful) you can expect the results of your analysis to be. 
 
+************************************************************************************************************************************************************
+
+DA-11(REGRESSION ANALYSIS)(EXCEL FILE USED: RegressionAnalysis.xlsx)
+
+Regression analysis is a set of statistical methods used for the estimation of relationships between a dependent variable and one or more independent variables. It can be utilized to assess the strength of the relationship between variables and for modeling the future relationship between them.
+
+Regression analysis includes several variations, such as linear, multiple linear, and nonlinear. The most common models are simple linear and multiple linear. Nonlinear regression analysis is commonly used for more complicated data sets in which the dependent and independent variables show a nonlinear relationship.
+
+Regression analysis offers numerous applications in various disciplines, including finance.
+
+**Regression Analysis – Linear model assumptions**
+Linear regression analysis is based on six fundamental assumptions:
+1. The dependent and independent variables show a linear relationship between the slope and the intercept.
+2. The independent variable is not random.
+3. The value of the residual (error) is zero.
+4. The value of the residual (error) is constant across all observations.
+5. The value of the residual (error) is not correlated across all observations.
+6. The residual (error) values follow the normal distribution.
+
+**Regression analysis in finance**
+Regression analysis has several applications in finance. For example, the statistical method is fundamental to the Capital Asset Pricing Model (CAPM). Essentially, the CAPM equation is a model that determines the relationship between the expected return of an asset and the market risk premium.
+
+The analysis is also used to forecast the returns of securities, based on different factors, or to forecast the performance of a business. Learn more forecasting methods in CFI’s Budgeting and Forecasting Course!
 
 ************************************************************************************************************************************************************
 
+DA-12(K MEANS CLUSTERING)(EXCEL FILE USED: KMeansClustering.xlsx)
 
+K-Means Clustering is an Unsupervised Learning algorithm, which groups the unlabeled dataset into different clusters. Here K defines the number of pre-defined clusters that need to be created in the process, as if K=2, there will be two clusters, and for K=3, there will be three clusters, and so on.
+
+It is an iterative algorithm that divides the unlabeled dataset into k different clusters in such a way that each dataset belongs only one group that has similar properties.
+It allows us to cluster the data into different groups and a convenient way to discover the categories of groups in the unlabeled dataset on its own without the need for any training.
+
+It is a centroid-based algorithm, where each cluster is associated with a centroid. The main aim of this algorithm is to minimize the sum of distances between the data point and their corresponding clusters.
+
+The algorithm takes the unlabeled dataset as input, divides the dataset into k-number of clusters, and repeats the process until it does not find the best clusters. The value of k should be predetermined in this algorithm.
+
+The k-means clustering algorithm mainly performs two tasks:
+1. Determines the best value for K center points or centroids by an iterative process.
+2. Assigns each data point to its closest k-center. Those data points which are near to the particular k-center, create a cluster.
+Hence each cluster has datapoints with some commonalities, and it is away from other cluster
 
