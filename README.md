@@ -300,3 +300,27 @@ The k-means clustering algorithm mainly performs two tasks:
 2. Assigns each data point to its closest k-center. Those data points which are near to the particular k-center, create a cluster.
 Hence each cluster has datapoints with some commonalities, and it is away from other cluster
 
+************************************************************************************************************************************************************
+
+DA-12(CLASSIFICATION & REGRESSION TREE)(EXCEL FILE USED: CART.xlsx)
+
+**Classification And Regression Trees for Machine Learning**
+1. Decision Trees are an important type of algorithm for predictive modeling machine learning.
+2. The classical decision tree algorithms have been around for decades and modern variations like random forest are among the most powerful techniques available.
+3. Classification and Regression Trees or CART for short is a term introduced by Leo Breiman to refer to Decision Tree algorithms that can be used for classification or regression predictive modeling problems.
+4. Classically, this algorithm is referred to as “decision trees”, but on some platforms like R they are referred to by the more modern term CART.
+5. The CART algorithm provides a foundation for important algorithms like bagged decision trees, random forest and boosted decision trees.
+6. CART Model Representation
+The representation for the CART model is a binary tree.
+This is your binary tree from algorithms and data structures, nothing too fancy. Each root node represents a single input variable (x) and a split point on that variable (assuming the variable is numeric).
+The leaf nodes of the tree contain an output variable (y) which is used to make a prediction.
+Given a dataset with two inputs (x) of height in centimeters and weight in kilograms the output of sex as male or female, below is a crude example of a binary decision tree (completely fictitious for demonstration purposes only).
+
+**SUMMARY**
+1. The classical name Decision Tree and the more Modern name CART for the algorithm.
+2. The representation used for CART is a binary tree.
+3. Predictions are made with CART by traversing the binary tree given a new input record.
+4. The tree is learned using a greedy algorithm on the training data to pick splits in the tree.
+5. Stopping criteria define how much tree learns and pruning can be used to improve a learned tree.
+
+************************************************************************************************************************************************************
